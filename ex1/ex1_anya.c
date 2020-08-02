@@ -9,7 +9,9 @@
 	 * example: in 'echo hello world' 
 	 *          argc = 3, because 1) is echo, 2) is hello  3) is world, OR:
 	 *          argv[0] = echo, argv[1] = hello, argv[2] = world
-	 *          (!) notice that argv[argc] is a NULL POINTER :)
+	 *          (!) notice that argv[argc] is a NULL POINTER
+	 * 
+	 * source: K&R Reference
 	 */
 
 	// so i totally forgot to specify the return value type smh!
